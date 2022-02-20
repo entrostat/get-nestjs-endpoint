@@ -1,6 +1,6 @@
 {
   "name": "get-nestjs-endpoint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Returns the endpoint of a NestJS controller function. This allows us to change the endpoint or refactor without our code breaking.",
   "main": "dist/index",
   "types": "dist/index",
