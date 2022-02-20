@@ -30,5 +30,9 @@
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "type-fest": "^2.12.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/entrostat/get-nestjs-endpoint/issues"
+  },
+  "homepage": "https://github.com/entrostat/get-nestjs-endpoint#readme"
 }
