@@ -1,0 +1,29 @@
+{
+  "name": "get-nestjs-endpoint",
+  "version": "0.0.0",
+  "description": "Returns the endpoint of a NestJS controller function. This allows us to change the endpoint or refactor without our code breaking.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nestjs",
+    "endpoint",
+    "typescript",
+    "metadata",
+    "get",
+    "url",
+    "controller"
+  ],
+  "author": "Kerren-Entrostat",
+  "license": "MIT",
+  "devDependencies": {
+    "entro-version": "^1.7.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "type-fest": "^2.12.0"
+  }
+}
