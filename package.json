@@ -8,7 +8,8 @@
     "release": "entro-version",
     "build": "rimraf dist && tsc",
     "prepublish": "yarn build",
-    "test": "cd tests/nest-8-standard && yarn test"
+    "test": "cd tests/nest-8-standard && yarn test",
+    "test:ci": "yarn install && cd tests/nest-8-standard && yarn install && yarn test"
   },
   "keywords": [
     "nestjs",
