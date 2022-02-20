@@ -5,7 +5,7 @@
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
-    "release": "entro-version",
+    "release": "entro-version --during-release-post-hook=\"npm publish\"",
     "build": "rimraf dist && tsc",
     "prepublish": "yarn build",
     "test": "cd tests/nest-8-standard && yarn test",
