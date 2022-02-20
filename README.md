@@ -27,9 +27,27 @@ import { AppController } from "./app.controller";
 // Your code here...
 
 
-const endpoint = getEndpoint(AppController, 'getHello');
 // The function name 'getHello' must exist on AppController, if it doesn't the
 //  code will not compile.
+const endpoint = getEndpoint(AppController, 'getHello');
+// 'app/hello/world'
+```
+
+This is assuming your `AppController` looks something like this:
+
+```typescript
+import { Controller, Get } from '@nestjs/common';
+import { AppService } from './app.service';
+
+@Controller('app')
+export class AppController {
+  constructor(private readonly appService: AppService) {}
+
+  @Get('hello/world')
+  getHello(): string {
+    return this.appService.getHello();
+  }
+}
 ```
 
 ## Known Gotchas
