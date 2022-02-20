@@ -1,4 +1,4 @@
-# Get NestJS Endpoint
+# get-nestjs-endpoint
 
 
 [![NPM](https://nodei.co/npm/get-nestjs-endpoint.png)](https://nodei.co/npm/get-nestjs-endpoint/)
