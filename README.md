@@ -1,5 +1,13 @@
 # Get NestJS Endpoint
 
+
+[![NPM](https://nodei.co/npm/get-nestjs-endpoint.png)](https://nodei.co/npm/get-nestjs-endpoint/)
+
+[![Version](https://img.shields.io/npm/v/get-nestjs-endpoint.svg?style=for-the-badge)](https://npmjs.org/package/get-nestjs-endpoint)
+[![Downloads/week](https://img.shields.io/npm/dw/get-nestjs-endpoint.svg?style=for-the-badge)](https://npmjs.org/package/get-nestjs-endpoint)
+[![License](https://img.shields.io/npm/l/get-nestjs-endpoint.svg?style=for-the-badge)](https://github.com/entrostat/get-nestjs-endpoint/blob/master/package.json)
+[![Unit Tests](https://github.com/entrostat/get-nestjs-endpoint/actions/workflows/unit-tests.yml/badge.svg?branch=master)](https://github.com/entrostat/get-nestjs-endpoint/actions/workflows/unit-tests.yml)
+
 Sometimes, you may want to get the string path to endpoints in a [NestJS](https://nestjs.com) application. This library simplifies the process and uses metadata stored on the controller to pull the path of our function. What's cool about this is that it uses [type-fest](https://github.com/sindresorhus/type-fest) to ensure that the function name exists in the controller. If you ever want to change the function name, or see where that endpoint string is being used, you can use your IDE completion to tell you!
 
 ## Getting Started
