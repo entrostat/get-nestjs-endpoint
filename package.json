@@ -5,11 +5,9 @@
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
-    "test": "jest",
     "release": "entro-version",
     "build": "rimraf dist && tsc",
-    "prepublish": "npm run build",
-    "test:ci": "npm run build && npm run test"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "nestjs",
@@ -23,12 +21,9 @@
   "author": "Kerren-Entrostat",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^27.4.0",
     "entro-version": "^1.7.0",
-    "jest": "^27.5.1",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "ts-jest": "^27.1.3",
     "typescript": "^4.5.5"
   },
   "dependencies": {
